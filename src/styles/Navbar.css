@@ -1,0 +1,19 @@
+.navbar {
+    background: #6c63ff;
+    color: white;
+}
+
+.navbar-item {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+.title {
+    color: white !important;
+}

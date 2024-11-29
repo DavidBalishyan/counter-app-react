@@ -1,0 +1,50 @@
+/* General Button 3D Style */
+.button-3d {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(145deg, #6c63ff, #4a47ff);
+    border: none;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), -5px -5px 15px rgba(255, 255, 255, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Hover Effect */
+.button-3d:hover {
+    transform: translateY(-5px); /* Lift the button */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3), -5px -5px 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Active State */
+.button-3d:active {
+    transform: translateY(2px); /* Push down on click */
+    box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.3), inset -3px -3px 6px rgba(255, 255, 255, 0.1);
+}
+
+/* Different Button Colors */
+.increment {
+    background: linear-gradient(145deg, #28a745, #218838);
+}
+
+.decrement {
+    background: linear-gradient(145deg, #dc3545, #c82333);
+}
+
+.reset {
+    background: linear-gradient(145deg, #ffc107, #e0a800);
+}
+
+
+/* Rotate on Hover */
+.button-3d:hover {
+    transform: translateY(-5px) rotateX(10deg) rotateY(-10deg);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3), -5px -5px 20px rgba(255, 255, 255, 0.2);
+}
+
