@@ -5,6 +5,8 @@ import Counter from "./components/Counter";
 import ThreeDView from "./components/ThreeDView";
 import Home from "./pages/Home";
 
+document.title = "A simple counter app || By David Balishyan"
+
 const App = () => {
     return (
         <Router>
